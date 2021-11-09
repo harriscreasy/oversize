@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+
+main .canada-version img{
+    width: 150px;
+}
+
+main .france-version img{
+    width: 125px;
+}
+
+main h1{
+    color: white;
+    text-align: center;
+}

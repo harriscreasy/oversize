@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sis1{
+    background: black;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu ul li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 10px;
+}
+
+.sis1 .logo{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.sis2{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.title-side2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: black;
+    font-size: 40px;
+}
+
+
+.button-side{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.sis2 button{
+
+    border: 5px solid white;
+    width: 540px;
+    height: 150px;
+    margin: 20px;
+    background: transparent;
+    font-size: 50px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#button-1{
+    transition: 0.5s ease-in-out;
+}
+
+#button-1:hover{
+    background: url(../assets/img/kanye-plane.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+#button-2{
+    transition: 0.5s ease-in-out;
+}
+
+#button-2:hover{
+    background: url(../assets/img/money.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.sis3{
+    background: black;
+    color: white;
+    
+    
+}
+
+.transport-side{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.transport-side h3{
+    border-bottom: 5px solid white;
+   padding-bottom: 30px;
+}
