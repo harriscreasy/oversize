@@ -51,15 +51,18 @@ body{
 
 .button-side{
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-size: 40px;
     text-align: center;
-    
 
+}
+
+.button-side h2{
+    color: white;
 }
 
 .sis2 button{
@@ -91,7 +94,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
-    
     letter-spacing: 15px;
   
 }
@@ -137,6 +139,16 @@ body{
     height: 100vh;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#btn-adherent, #btn-enterprise{
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
 }
 
 .sis4 h3{
@@ -148,4 +160,72 @@ body{
     background: black;
     border: 4px solid white;
     padding: 20px;
+}
+
+@media only screen 
+   and (max-width : 607px) {
+   
+.button-side{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+
+
+.button-side h2{
+    color: white;
+    font-size: 10vw;
+}
+
+.sis2 button{
+
+    border: none;
+    width: 40%;
+    height: 150px;
+    margin: 20px;
+    background: transparent;
+    font-size: 7vw;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.inscription-entreprise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#btn-adherent, #btn-enterprise{
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 4vw;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.sis4 h3{
+    color: white;
+    font-size: 4vw;
+}
+
+.sis4 #btn-inscription-adherent{
+    color: white;
+    background: black;
+    border: 4px solid white;
+    padding: 20px;
+}
 }
